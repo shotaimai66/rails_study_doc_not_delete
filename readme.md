@@ -1,3 +1,7 @@
+# 資料
+- 画面遷移図
+  - https://drive.google.com/file/d/1nYdkRKAWuWW308XT2ea4XhEPGgM4Uaxe/view?usp=sharing
+
 # 1. rails6の環境構築
 ## 要件
 - railsのバージョンは6系
