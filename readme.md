@@ -1,7 +1,3 @@
-# 資料
-- 画面遷移図
-  - https://drive.google.com/file/d/1nYdkRKAWuWW308XT2ea4XhEPGgM4Uaxe/view?usp=sharing
-
 # 1. rails6の環境構築
 ## 要件
 - railsのバージョンは6系
@@ -34,6 +30,8 @@
   - ユーザー作成後、認証用のメールが送信されること
     - gem 'letter_opener_web'を利用して、ブラウザで送信したメールが確認できること
   - emailとパスワードでログインができること
+- その他のdeviseの機能は以下の画面遷移図のようになっていること
+  - https://drive.google.com/file/d/1nYdkRKAWuWW308XT2ea4XhEPGgM4Uaxe/view?usp=sharing
 - 完成後の作業ブランチからmainブランチにPRをあげ、その後マージすること
 
 ## 終了条件
