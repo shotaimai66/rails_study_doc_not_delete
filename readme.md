@@ -43,7 +43,36 @@
 - ローカルに最新のmainブランチをpullすること
 - mainブランチから作業ブランチ(feat/devise_2)を切って作業すること
 - bootstrap5の適応
-  - deviseのログイン画面、ユーザー作成画面をbootstrapに適応させること
+  - deviseの画面のフォームとボタンをbootstrapに適応させること
+- 画面遷移とサンプル画面は以下のリンクの画面遷移図の要件通りに実装すること
+  - https://drive.mindmup.com/map/1SgJDPc8nc90wh2BxfKaLLCdHtmeCJcv-
+- 完成後の作業ブランチからmainブランチにPRをあげ、その後マージすること
+
+## 終了条件
+- 要件が満たされていること
+
+# 5. 記事CRUD機能の作成
+## 要件
+- ローカルに最新のmainブランチをpullすること
+- mainブランチから作業ブランチ(feat/crud1)を切って作業すること
+- 記事テーブル(article)を作成すること。カラムは以下の通り。
+  - id: 主キー
+  - title: string型, タイトル, not_null制約, 10文字以内
+  - content: text型, 本文, not_null制約
+  - 画像のカラム（自分で考える）
+- 記事の投稿に画像を1枚添付できるようにすること
+- users/article_controllerを作成してCRUD機能を作ること（アクションは以下の通り）
+  - index(一覧画面)
+  - show(詳細画面)
+  - new(新規作成画面)
+  - create(新規作成処理)
+  - edit(編集画面)
+  - update(更新処理)
+  - destroy(削除処理)
+- 画面遷移とサンプル画面は以下のリンクの画面遷移図の要件通りに実装すること
+  - https://drive.mindmup.com/map/1px1JibPFvo3NJeqobtLC9ZYrxZV7FCrh
+- users/articles_controllerの処理はログインユーザーのみ受け付けること
+  - ログインユーザーでなければユーザーログイン画面にリダイレクトすること
 - 完成後の作業ブランチからmainブランチにPRをあげ、その後マージすること
 
 ## 終了条件
